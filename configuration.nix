@@ -102,6 +102,7 @@
     home-manager
     btop
     ghostty
+    blueman
     ];
   };
   # home-manager.users.ben = { pkgs, ... }: {
