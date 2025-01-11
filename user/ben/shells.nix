@@ -7,11 +7,11 @@ let
         ga = "git add";
         gc = "git commit";
         nbs = "sudo nixos-rebuild switch --flake .";
-    }
+    };
 in
 {
     programs.bash = {
         enable = true;
         shellAliases = myAliases;
-    }
+    };
 }
