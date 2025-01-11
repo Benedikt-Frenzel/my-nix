@@ -154,6 +154,9 @@
 
   # List services that you want to enable:
 
+
+  hardware.bluetooth.enable = true; # enables support for Bluetooth
+  hardware.bluetooth.powerOnBoot = true; # powers up the default Bluetooth controller on boot
   # Enable the OpenSSH daemon.
   # services.openssh.enable = true;
 
