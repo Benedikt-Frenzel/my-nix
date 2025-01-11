@@ -16,7 +16,7 @@
 	nixosConfigurations.dwarf = nixpkgs.lib.nixosSystem {
   	specialArgs = { inherit inputs; };
 		modules = [
-			./configuration.nix
+			.systems/dwarf/configuration.nix
       ./user/ben/auto-login.nix
       ./user/ben/1password.nix
       ./user/ben/shells.nix
