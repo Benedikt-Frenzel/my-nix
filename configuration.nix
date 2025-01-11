@@ -103,6 +103,7 @@
     btop
     ghostty
     blueman
+    vscode
     ];
   };
   # home-manager.users.ben = { pkgs, ... }: {
