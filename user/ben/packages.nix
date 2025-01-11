@@ -12,6 +12,7 @@ users.users.ben = {
         blueman
         vscode
         thunderbird
+        fastfetch
     ];
   };
 
