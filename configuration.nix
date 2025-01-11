@@ -100,6 +100,8 @@
     _1password-gui
     neovim
     home-manager
+    btop
+    ghostty
     ];
   };
   # home-manager.users.ben = { pkgs, ... }: {
