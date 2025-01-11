@@ -14,7 +14,7 @@
   in
   {
 	nixosConfigurations.dwarf = nixpkgs.lib.nixosSystem {
-		specialArgs = { inherit inputs; };
+  	specialArgs = { inherit inputs; };
 		modules = [
 			./configuration.nix
       ./user/ben/shells.nix
