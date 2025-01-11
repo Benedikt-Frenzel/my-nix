@@ -95,16 +95,6 @@
     isNormalUser = true;
     description = "Benedikt Frenzel";
     extraGroups = [ "networkmanager" "wheel" ];
-    packages = with pkgs; [
-    _1password-cli
-    _1password-gui
-    neovim
-    home-manager
-    btop
-    ghostty
-    blueman
-    vscode
-    ];
   };
 
   

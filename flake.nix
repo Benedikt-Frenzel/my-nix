@@ -18,7 +18,7 @@
 		modules = [
 			./configuration.nix
       ./user/ben/shells.nix
-			
+      ./user/ben/packages.nix
 		];
 	};
   };
