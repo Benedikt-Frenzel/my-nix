@@ -24,5 +24,16 @@
       ./user/ben/packages.nix
 		];
 	};
+      nixosConfigurations.sunny = {
+	specialArgs = { inherit inputs; };
+	modules = [
+		./systems/sunny/configuration.nix
+		./user/ben/auto-login.nix
+		./user/ben/firefox.nix
+		./user/ben/1password.nix
+		./user/ben/shells.nix
+		./user/ben/packages.nix
+	];
+	};
   };
 }
