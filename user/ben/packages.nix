@@ -15,6 +15,8 @@ users.users.ben = {
         fastfetch
         taskwarrior3
         vmware-workstation
+        mosh
+        mindustry
     ];
   };
 
