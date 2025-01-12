@@ -13,6 +13,7 @@ users.users.ben = {
         vscode
         thunderbird
         fastfetch
+        taskwarrior3
     ];
   };
 
