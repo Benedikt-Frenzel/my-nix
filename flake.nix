@@ -24,7 +24,7 @@
       ./user/ben/packages.nix
 		];
 	};
-      nixosConfigurations.sunny = {
+      nixosConfigurations.sunny = nixpkgs.lib.nixosSystem {
 	specialArgs = { inherit inputs; };
 	modules = [
 		./systems/sunny/configuration.nix
