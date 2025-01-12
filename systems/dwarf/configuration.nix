@@ -121,6 +121,8 @@
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
   # Bluetooth would be nice
+  hardware.bluetooth.enable = true; # enables support for Bluetooth
+  hardware.bluetooth.powerOnBoot = true; # powers up the default Bluetooth controller on boot
   services.blueman.enable = true;
 
   # This value determines the NixOS release from which the default

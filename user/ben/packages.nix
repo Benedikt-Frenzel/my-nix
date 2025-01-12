@@ -14,6 +14,7 @@ users.users.ben = {
         thunderbird
         fastfetch
         taskwarrior3
+        vmware-workstation
     ];
   };
 
