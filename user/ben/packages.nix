@@ -17,6 +17,8 @@ users.users.ben = {
         vmware-workstation
         mosh
         mindustry
+        timewarrior
+        vit
     ];
   };
 
