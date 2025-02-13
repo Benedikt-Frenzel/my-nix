@@ -17,6 +17,7 @@ users.users.ben = {
         vmware-workstation
         mosh
         mindustry
+        nh
     ];
   };
 
