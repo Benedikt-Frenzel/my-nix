@@ -5,6 +5,7 @@
 { config, pkgs, inputs, ... }:
 
 {
+  boot.supportedFilesystems = [ "ntfs" ];
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
